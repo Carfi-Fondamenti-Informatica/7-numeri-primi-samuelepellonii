@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include "lib.h"
 
@@ -10,12 +9,11 @@ int main() {
 
     numeriprimi (a);
 
-    if ( a==true ){
-        cout << "numero primo" << endl;
-    } else {
-        cout << "numero non primo" << endl;
+    if ( numeriprimi (a)== 1 ){
+        cout << "numero primo";
+    }else {
+        cout << "numero non primo";
     }
-
 
     return 0;
 }
